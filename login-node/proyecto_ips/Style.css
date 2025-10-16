@@ -1,0 +1,53 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0077b6, #00b4d8);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #0077b6;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+button {
+  background-color: #0077b6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #005f8a;
+  cursor: pointer;
+}
+
+#resultado {
+  margin-top: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}

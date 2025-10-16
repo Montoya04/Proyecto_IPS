@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login IPS</title>
+    <link rel="stylesheet" href="/proyecto_ips/Style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Iniciar Sesión IPS</h2>
+      <form id="loginForm">
+        <input
+          type="email"
+          id="email"
+          placeholder="Correo electrónico"
+          required
+        />
+        <input
+          type="password"
+          id="password"
+          placeholder="Contraseña"
+          required
+        />
+
+        <button type="submit">Iniciar sesión</button>
+      </form>
+      <div id="resultado"></div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
